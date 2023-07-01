@@ -1,0 +1,42 @@
+/* body {
+    padding-top: 40px;
+} */
+
+.item1 { grid-area: title; }
+.item2 { grid-area: nav1; }
+.item3 { grid-area: nav2; }
+.item4 { grid-area: nav3; }
+.item5 { grid-area: post_title; }
+.item6 { grid-area: sidebar; }
+.item7 { grid-area: post_meta; }
+.item8 { grid-area: main_content; }
+.item9 { grid-area: ads; }
+.item10 { grid-area: other; }
+.item11 { grid-area: content_img; }
+.item12 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'title title title nav1 nav2 nav3'
+    'post_title post_title post_title post_title post_title sidebar'
+    'post_meta main_content main_content main_content main_content sidebar'
+    'post_meta main_content main_content main_content main_content sidebar'
+    'post_meta main_content main_content main_content main_content ads'
+    'post_meta main_content main_content main_content main_content ads'
+    'post_meta content_img content_img content_img content_img ads'
+    'post_meta content_img content_img content_img content_img other'
+    'post_meta content_img content_img content_img content_img other'
+    'footer footer footer footer footer footer';
+
+  gap: 8px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(212, 212, 212, 0.8);
+  text-align: center;
+  padding: 40px 0;
+  font-size: 30px;
+}

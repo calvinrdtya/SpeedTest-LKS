@@ -1,0 +1,31 @@
+animasi {
+    justify-content: center;
+}
+
+.merah {
+    color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 80px;
+}
+
+.hijau {
+    color: rgb(0, 255, 76);
+    height: 30px;
+    width: 30px;
+    border-radius: 80px;
+}
+
+.kuning {
+    color: rgb(238, 255, 0);
+    height: 30px;
+    width: 30px;
+    border-radius: 80px;
+}
+
+.biru {
+    color: blue;
+    height: 30px;
+    width: 30px;
+    border-radius: 80px;
+}
